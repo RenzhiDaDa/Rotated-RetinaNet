@@ -1,3 +1,18 @@
+my method 
+ 1:
+ prepare labels, take hrsc for example:
+```
+cd $ROOT/datasets/evaluate
+python hrsc2gt.py
+```
+this step can  convert the val.txt to './datasets/evaluate/ground-truth'
+val  or  test
+
+
+
+
+
+
 # Rotation RetinaNet
 
 The codes build R-RetinaNet for arbitrary-oriented object detection. It supports the following datasets: DOTA, HRSC2016, ICDAR2013, ICDAR2015, UCAS-AOD, NWPU VHR-10, VOC2007. 
